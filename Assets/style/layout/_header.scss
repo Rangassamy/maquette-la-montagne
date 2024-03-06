@@ -1,0 +1,68 @@
+header {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  .header-container {
+    padding: 200px 0 130px;
+
+    h1 {
+      font-family: "InterExtraBold";
+      text-transform: uppercase;
+      font-size: 4rem;
+      margin: 0 auto;
+      letter-spacing: 5px;
+      max-width: 57%;
+      margin-bottom: 30px;
+    }
+    #icon-header {
+      margin: 60px auto 0;
+      height: 60px;
+      width: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid whitesmoke;
+      border-radius: 150px;
+    }
+  }
+  nav {
+    background: rgba(245, 245, 245, 0.24);
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    max-height: 70px;
+    color: whitesmoke;
+    .nav-left-part {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      h3 {
+        font-family: "InterExtraBold";
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        letter-spacing: 3px;
+        width: 100%;
+        padding: 28px 0;
+        &:hover {
+          background: whitesmoke;
+          color: black;
+        }
+      }
+    }
+    .nav-right-part {
+      width: 30%;
+      margin: auto 0;
+    }
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      i {
+        color: whitesmoke;
+      }
+    }
+  }
+}
