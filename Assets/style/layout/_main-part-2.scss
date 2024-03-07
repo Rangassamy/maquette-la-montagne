@@ -1,0 +1,53 @@
+.main-part-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  .main-part-2-left-part-container {
+    position: relative;
+
+    &::after {
+      content: "";
+      height: 100%;
+      width: 1px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: rgb(190, 190, 190);
+    }
+  }
+  .main-part-2-left-part {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  .main-part-2-right-part {
+    width: 80%;
+    margin: 00 auto;
+    padding: 60px 0;
+  }
+  h4 {
+    font-family: "MerriweatherLight";
+    font-weight: 100;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+  }
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: "InterExtraBold";
+    letter-spacing: 3px;
+    width: 225px;
+    margin: 0 auto 30px;
+    line-height: 30px;
+  }
+  img {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  p {
+    font-family: "MerriweatherLight";
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 30px;
+    margin: 0 auto 30px;
+  }
+}
