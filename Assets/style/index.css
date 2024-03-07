@@ -115,6 +115,11 @@ header nav ul {
 }
 header nav ul i {
   color: whitesmoke;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header nav ul i:hover {
+  font-size: 2rem;
 }
 
 main {

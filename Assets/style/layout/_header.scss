@@ -62,6 +62,11 @@ header {
       list-style: none;
       i {
         color: whitesmoke;
+        transition: 0.3s;
+
+        &:hover {
+          font-size: 2rem;
+        }
       }
     }
   }
