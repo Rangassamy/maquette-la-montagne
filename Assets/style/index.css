@@ -19,6 +19,16 @@ body {
   text-align: center;
 }
 
+#full-story-button {
+  background: transparent;
+  border: 2px solid black;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  font-family: "InterExtraBold";
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
 header {
   max-width: 1100px;
   margin: 0 auto;
@@ -26,7 +36,7 @@ header {
   font-size: 1.2rem;
 }
 header .header-container {
-  padding: 200px 0 130px;
+  padding: 200px 0 135px;
 }
 header .header-container h1 {
   font-family: "InterExtraBold";
@@ -105,4 +115,74 @@ header nav ul {
 }
 header nav ul i {
   color: whitesmoke;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: white;
+}
+main .main-part-1 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+  position: relative;
+}
+main .main-part-1::after {
+  content: "";
+  height: 1px;
+  width: 125%;
+  position: absolute;
+  left: -12.5%;
+  bottom: 0;
+  background: rgb(190, 190, 190);
+}
+main .main-part-1 h4 {
+  font-family: "MerriweatherLight";
+  font-weight: 100;
+  margin-bottom: 70px;
+  position: relative;
+}
+main .main-part-1 h4::before {
+  content: "";
+  height: 2px;
+  width: 40%;
+  left: 0;
+  background: rgb(216, 211, 211);
+  position: absolute;
+  bottom: 50%;
+}
+main .main-part-1 h4::after {
+  content: "";
+  height: 2px;
+  width: 40%;
+  right: 0;
+  background: rgb(216, 211, 211);
+  position: absolute;
+  bottom: 50%;
+}
+main .main-part-1 h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "InterExtraBold";
+  max-width: 600px;
+  margin: 0 auto 40px;
+  letter-spacing: 3px;
+}
+main .main-part-1 p {
+  max-width: 500px;
+  margin: 0 auto 40px;
+  font-family: "MerriweatherLight";
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 100;
+}
+main .main-part-1 .main-part-1-image {
+  width: 100%;
+  margin-bottom: 40px;
+}
+main .main-part-1 .main-part-1-image img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
