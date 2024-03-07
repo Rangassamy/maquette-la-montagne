@@ -11,12 +11,14 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  list-style: none;
 }
 
 body {
   min-height: 100vh;
   background: url(../images/bg.jpg) fixed center/cover;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 #full-story-button {
@@ -124,7 +126,7 @@ header nav ul i:hover {
 
 main {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   background: white;
 }
 main .main-part-1 {
@@ -243,4 +245,169 @@ main .main-part-1 .main-part-1-image img {
   font-size: 0.8rem;
   line-height: 30px;
   margin: 0 auto 30px;
+}
+
+footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: whitesmoke;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+footer .footer-left-part-container {
+  position: relative;
+}
+footer .footer-left-part-container::after {
+  content: "";
+  background: rgb(207, 201, 201);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+footer .footer-left-part {
+  width: 80%;
+  margin: 0 auto;
+}
+footer .footer-left-part form {
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1 1 1 1;
+  grid-template-areas: "name-form" "email-form" "message-form" "button";
+}
+footer .footer-left-part .name-form {
+  grid-area: name-form;
+}
+footer .footer-left-part .email-form {
+  grid-area: email-form;
+}
+footer .footer-left-part .message-form {
+  grid-area: message-form;
+}
+footer .footer-left-part label {
+  text-transform: uppercase;
+  font-family: "InterExtraBold";
+  font-size: 0.7rem;
+  display: block;
+  text-align: left;
+  color: rgb(110, 109, 109);
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+footer .footer-left-part input[type=text] {
+  width: 100%;
+  background: transparent;
+  border: solid 1px rgb(207, 201, 201);
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+}
+footer .footer-left-part textarea {
+  background: transparent;
+  width: 100%;
+  border: solid 1px rgb(207, 201, 201);
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 30px;
+  padding: 10px;
+  outline: none;
+}
+footer .footer-left-part input[type=submit] {
+  padding: 15px;
+  max-width: 160px;
+  text-transform: uppercase;
+  font-family: "InterExtraBold";
+  font-weight: 300;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: rgb(110, 109, 109);
+  background: transparent;
+  border: solid 2px rgb(94, 90, 90);
+}
+footer .footer-right-part-container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+footer .footer-right-part-box-container {
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-template-columns: 30% 70%;
+  position: relative;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.082);
+          box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.082);
+}
+footer .footer-right-part-box-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer-right-part-box-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer h4 {
+  text-transform: uppercase;
+  font-family: "InterExtraBold";
+  font-weight: 100;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: rgb(110, 109, 109);
+  padding-left: 30px;
+}
+footer h5 {
+  font-family: "MerriweatherLight";
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: rgb(179, 174, 174);
+  width: 100%;
+  max-width: 215px;
+  text-align: left;
+}
+footer ul {
+  width: 100%;
+  max-width: 215px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer li {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(179, 174, 174);
+  border-radius: 150px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer a {
+  color: black;
 }/*# sourceMappingURL=index.css.map */
