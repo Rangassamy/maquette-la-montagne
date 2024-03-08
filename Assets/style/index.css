@@ -334,6 +334,11 @@ footer {
   display: grid;
   grid-template-columns: 50% 50%;
 }
+@media screen and (max-width: 800px) {
+  footer {
+    display: block;
+  }
+}
 footer .footer-left-part-container {
   position: relative;
 }
@@ -411,6 +416,7 @@ footer .footer-left-part input[type=submit] {
 footer .footer-right-part-container {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
+  min-height: 600px;
 }
 footer .footer-right-part-box-container {
   display: grid;
@@ -453,6 +459,11 @@ footer h4 {
   color: rgb(110, 109, 109);
   padding-left: 30px;
 }
+@media screen and (max-width: 800px) {
+  footer h4 {
+    font-size: 0.9rem;
+  }
+}
 footer h5 {
   font-family: "MerriweatherLight";
   font-weight: 100;
@@ -461,6 +472,24 @@ footer h5 {
   width: 100%;
   max-width: 215px;
   text-align: left;
+}
+@media screen and (max-width: 900px) {
+  footer h5 {
+    font-size: 0.7rem;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  footer h5 {
+    font-size: 1rem;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 890px) {
+  footer h5 {
+    font-size: 0.7rem;
+    padding-left: 30px;
+  }
 }
 footer ul {
   width: 100%;
@@ -471,6 +500,21 @@ footer ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+  footer ul {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  footer ul {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 700px) {
+  footer ul {
+    max-width: 90%;
+  }
 }
 footer li {
   width: 20px;

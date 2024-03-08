@@ -6,6 +6,10 @@ footer {
   display: grid;
   grid-template-columns: 50% 50%;
 
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
+
   .footer-left-part-container {
     position: relative;
 
@@ -90,6 +94,7 @@ footer {
   .footer-right-part-container {
     display: grid;
     grid-template-rows: 25% 25% 25% 25%;
+    min-height: 600px;
   }
   .footer-right-part-box-container {
     display: grid;
@@ -116,6 +121,10 @@ footer {
     letter-spacing: 2px;
     color: rgb(110, 109, 109);
     padding-left: 30px;
+
+    @media screen and (max-width: 800px) {
+      font-size: 0.9rem;
+    }
   }
   h5 {
     font-family: "MerriweatherLight";
@@ -125,12 +134,34 @@ footer {
     width: 100%;
     max-width: 215px;
     text-align: left;
+
+    @media screen and (max-width: 900px) {
+      font-size: 0.7rem;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 800px) {
+      font-size: 1rem;
+      max-width: 300px;
+    }
+    @media screen and (max-width: 890px) {
+      font-size: 0.7rem;
+      padding-left: 30px;
+    }
   }
   ul {
     width: 100%;
     max-width: 215px;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 900px) {
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 800px) {
+      max-width: 330px;
+    }
+    @media screen and (max-width: 700px) {
+      max-width: 90%;
+    }
   }
   li {
     width: 20px;
