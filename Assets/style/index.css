@@ -208,6 +208,11 @@ main .main-part-1 h4::before {
   position: absolute;
   bottom: 50%;
 }
+@media screen and (max-width: 890px) {
+  main .main-part-1 h4::before {
+    width: 30%;
+  }
+}
 main .main-part-1 h4::after {
   content: "";
   height: 2px;
@@ -217,6 +222,11 @@ main .main-part-1 h4::after {
   position: absolute;
   bottom: 50%;
 }
+@media screen and (max-width: 890px) {
+  main .main-part-1 h4::after {
+    width: 30%;
+  }
+}
 main .main-part-1 h2 {
   text-transform: uppercase;
   font-size: 3rem;
@@ -224,6 +234,16 @@ main .main-part-1 h2 {
   max-width: 600px;
   margin: 0 auto 40px;
   letter-spacing: 3px;
+}
+@media screen and (max-width: 890px) {
+  main .main-part-1 h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .main-part-1 h2 {
+    font-size: 1.5rem;
+  }
 }
 main .main-part-1 p {
   max-width: 500px;
@@ -234,6 +254,11 @@ main .main-part-1 p {
   font-size: 0.8rem;
   font-style: italic;
   font-weight: 100;
+}
+@media screen and (max-width: 890px) {
+  main .main-part-1 p {
+    font-size: 0.7rem;
+  }
 }
 main .main-part-1 .main-part-1-image {
   width: 100%;
@@ -246,6 +271,11 @@ main .main-part-1 .main-part-1-image img {
 .main-part-2 {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+@media screen and (max-width: 800px) {
+  .main-part-2 {
+    display: block;
+  }
 }
 .main-part-2 .main-part-2-left-part-container {
   position: relative;

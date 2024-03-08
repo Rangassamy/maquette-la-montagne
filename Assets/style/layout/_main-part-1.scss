@@ -33,6 +33,10 @@ main {
         background: rgb(216, 211, 211);
         position: absolute;
         bottom: 50%;
+
+        @media screen and (max-width: 890px) {
+          width: 30%;
+        }
       }
       &::after {
         content: "";
@@ -42,6 +46,10 @@ main {
         background: rgb(216, 211, 211);
         position: absolute;
         bottom: 50%;
+
+        @media screen and (max-width: 890px) {
+          width: 30%;
+        }
       }
     }
     h2 {
@@ -51,6 +59,13 @@ main {
       max-width: 600px;
       margin: 0 auto 40px;
       letter-spacing: 3px;
+
+      @media screen and (max-width: 890px) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 1.5rem;
+      }
     }
     p {
       max-width: 500px;
@@ -61,6 +76,10 @@ main {
       font-size: 0.8rem;
       font-style: italic;
       font-weight: 100;
+
+      @media screen and (max-width: 890px) {
+        font-size: 0.7rem;
+      }
     }
     .main-part-1-image {
       width: 100%;
