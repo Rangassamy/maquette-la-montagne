@@ -126,11 +126,6 @@ header nav .nav-left-part h3 {
   font-size: 0.7rem;
   letter-spacing: 3px;
   width: 100%;
-  padding: 28px 0;
-}
-header nav .nav-left-part h3:hover {
-  background: whitesmoke;
-  color: black;
 }
 header nav .nav-right-part {
   width: 30%;
