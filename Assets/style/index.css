@@ -81,6 +81,16 @@ header .header-container h1 {
   max-width: 610px;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 780px) {
+  header .header-container h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 710px) {
+  header .header-container h1 {
+    font-size: 2rem;
+  }
+}
 header .header-container #icon-header {
   margin: 60px auto 0;
   height: 60px;
@@ -109,6 +119,12 @@ header nav {
   max-height: 70px;
   color: whitesmoke;
 }
+@media screen and (max-width: 780px) {
+  header nav .nav-right-part {
+    display: none;
+    width: 0%;
+  }
+}
 header nav .nav-left-part {
   width: 50%;
   display: -webkit-box;
@@ -119,6 +135,11 @@ header nav .nav-left-part {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 780px) {
+  header nav .nav-left-part {
+    width: 100%;
+  }
 }
 header nav .nav-left-part h3 {
   font-family: "InterExtraBold";

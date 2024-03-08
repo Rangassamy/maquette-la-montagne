@@ -32,6 +32,13 @@ header {
       width: 100%;
       max-width: 610px;
       margin-bottom: 30px;
+
+      @media screen and (max-width: 780px) {
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 710px) {
+        font-size: 2rem;
+      }
     }
     #icon-header {
       margin: 60px auto 0;
@@ -51,11 +58,23 @@ header {
     min-height: 70px;
     max-height: 70px;
     color: whitesmoke;
+
+    @media screen and (max-width: 780px) {
+      .nav-right-part {
+        display: none;
+        width: 0%;
+      }
+    }
+
     .nav-left-part {
       width: 50%;
       display: flex;
       justify-content: space-around;
       align-items: center;
+
+      @media screen and (max-width: 780px) {
+        width: 100%;
+      }
       h3 {
         font-family: "InterExtraBold";
         text-transform: uppercase;
