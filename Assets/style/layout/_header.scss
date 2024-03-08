@@ -1,4 +1,5 @@
 header {
+  width: 80%;
   max-width: 1100px;
   margin: 0 auto;
   color: whitesmoke;
@@ -28,7 +29,8 @@ header {
       font-size: 4rem;
       margin: 0 auto;
       letter-spacing: 5px;
-      max-width: 57%;
+      width: 100%;
+      max-width: 610px;
       margin-bottom: 30px;
     }
     #icon-header {
