@@ -40,7 +40,7 @@ header {
         font-size: 2rem;
       }
     }
-    #icon-header {
+    a {
       margin: 60px auto 0;
       height: 60px;
       width: 60px;
@@ -49,6 +49,8 @@ header {
       align-items: center;
       border: 2px solid whitesmoke;
       border-radius: 150px;
+      color: whitesmoke;
+      text-decoration: none;
     }
   }
   nav {

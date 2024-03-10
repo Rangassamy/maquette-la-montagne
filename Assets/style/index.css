@@ -14,6 +14,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   background: url(../images/bg.jpg) fixed center/cover;
@@ -91,7 +95,7 @@ header .header-container h1 {
     font-size: 2rem;
   }
 }
-header .header-container #icon-header {
+header .header-container a {
   margin: 60px auto 0;
   height: 60px;
   width: 60px;
@@ -106,6 +110,8 @@ header .header-container #icon-header {
           align-items: center;
   border: 2px solid whitesmoke;
   border-radius: 150px;
+  color: whitesmoke;
+  text-decoration: none;
 }
 header nav {
   background: rgba(245, 245, 245, 0.24);
