@@ -88,6 +88,11 @@ footer {
       color: rgb(110, 109, 109);
       background: transparent;
       border: solid 2px rgb(94, 90, 90);
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 
@@ -175,5 +180,9 @@ footer {
   }
   a {
     color: black;
+    transition: 0.2s;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }

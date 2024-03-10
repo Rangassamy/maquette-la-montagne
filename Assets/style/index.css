@@ -33,6 +33,12 @@ body {
   font-family: "InterExtraBold";
   font-weight: 500;
   letter-spacing: 3px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#full-story-button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 header {
@@ -471,6 +477,12 @@ footer .footer-left-part input[type=submit] {
   color: rgb(110, 109, 109);
   background: transparent;
   border: solid 2px rgb(94, 90, 90);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+footer .footer-left-part input[type=submit]:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 footer .footer-right-part-container {
   display: grid;
@@ -593,4 +605,10 @@ footer li {
 }
 footer a {
   color: black;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+footer a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }/*# sourceMappingURL=index.css.map */
