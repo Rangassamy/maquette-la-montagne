@@ -308,6 +308,11 @@ main .main-part-1 h4::before {
     width: 30%;
   }
 }
+@media screen and (max-width: 490px) {
+  main .main-part-1 h4::before {
+    width: 20%;
+  }
+}
 main .main-part-1 h4::after {
   content: "";
   height: 2px;
@@ -322,9 +327,14 @@ main .main-part-1 h4::after {
     width: 30%;
   }
 }
+@media screen and (max-width: 490px) {
+  main .main-part-1 h4::after {
+    width: 20%;
+  }
+}
 main .main-part-1 h2 {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-family: "InterExtraBold";
   max-width: 600px;
   margin: 0 auto 40px;
@@ -346,7 +356,7 @@ main .main-part-1 p {
   font-family: "MerriweatherLight";
   letter-spacing: 1px;
   line-height: 40px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-style: italic;
   font-weight: 100;
 }
@@ -402,12 +412,23 @@ main .main-part-1 .main-part-1-image img {
 }
 .main-part-2 h3 {
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-family: "InterExtraBold";
   letter-spacing: 3px;
-  width: 225px;
+  width: 80%;
+  max-width: 300px;
   margin: 0 auto 30px;
   line-height: 30px;
+}
+@media screen and (max-width: 1250px) {
+  .main-part-2 h3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-part-2 h3 {
+    font-size: 1.7rem;
+  }
 }
 .main-part-2 img {
   width: 100%;
