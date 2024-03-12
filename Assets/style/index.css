@@ -43,7 +43,7 @@ body {
 
 header {
   width: 80%;
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   color: whitesmoke;
   font-size: 1.2rem;
@@ -152,7 +152,7 @@ header nav {
   position: absolute;
   bottom: 0;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1400px;
 }
 @media screen and (max-width: 780px) {
   header nav .nav-right-part {
@@ -239,7 +239,7 @@ header nav ul i:hover {
 
 main {
   width: 80%;
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto 30px;
   background: white;
 }
@@ -393,7 +393,7 @@ main .main-part-1 .main-part-1-image img {
 
 footer {
   width: 80%;
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   background: whitesmoke;
   display: grid;
